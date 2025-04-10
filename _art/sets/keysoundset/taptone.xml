@@ -1,0 +1,20 @@
+<theme>
+	<formatVersion>7</formatVersion>	
+	
+	<feature supported="carousel">
+  
+	<view name="system, basic, detailed, grid, video">
+
+		<carousel name="systemcarousel">
+			<scrollSound>./keysounds/taptone.wav</scrollSound>
+		</carousel>
+
+		<textlist name="gamelist">
+			<scrollSound>./keysounds/taptone.wav</scrollSound>
+		</textlist>
+
+	</view>
+
+	</feature>
+	
+</theme>

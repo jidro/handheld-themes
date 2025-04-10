@@ -1,0 +1,158 @@
+<theme>
+    <formatVersion>7</formatVersion>
+
+    <view name="gameclip">
+
+        <image name="recalboxLogo">
+            <pos>.94 .12</pos>
+            <origin>.5 .5</origin>
+        </image>
+
+        <video name="md_video">
+            <maxSize>0.75 1</maxSize>
+            <zIndex>30</zIndex>
+        </video>
+
+        <image name="md_image">
+            <pos>.14 .98</pos>
+            <origin>0 1</origin>
+            <maxSize>0.2 0.2</maxSize>
+            <zIndex>40</zIndex>
+        </image>
+
+        <image name="background">
+            <pos>0 1</pos>
+            <origin>0 1</origin>
+            <size>1 0.12</size>
+            <zIndex>31</zIndex>
+            <color>474646dd</color>
+        </image>
+
+        <text name="md_gameName">
+            <pos>.865 .93</pos>
+            <origin>1 1</origin>
+            <alignment>right</alignment>
+        </text>
+
+        <text name="md_systemName">
+            <pos>.825 .98</pos>
+            <origin>1 1</origin>
+            <fontSize>7</fontSize>
+            <alignment>right</alignment>
+        </text>
+
+        <datetime name="md_releasedate">
+            <pos>.835 .975</pos>
+            <origin>1 1</origin>
+            <fontSize>7</fontSize>
+            <alignment>right</alignment>
+        </datetime>
+
+        <image name="favoriteIcon">
+            <disabled>true</disabled>
+        </image>
+
+        <image name="logo">
+            <disabled>true</disabled>
+        </image>
+
+        <image name="console" extra="true">
+            <disabled>true</disabled>
+        </image>
+
+        <text name="md_players, md_genre, md_developer, md_publisher">
+            <disabled>true</disabled>
+        </text>
+
+        <text name="md_lbl_releasedate">
+            <disabled>true</disabled>
+        </text>
+
+        <text name="md_lbl_developer">
+            <disabled>true</disabled>
+        </text>
+
+        <text name="md_developer">
+            <disabled>true</disabled>
+        </text>
+
+        <text name="md_lbl_publisher">
+            <disabled>true</disabled>
+        </text>
+
+        <text name="md_publisher">
+            <disabled>true</disabled>
+        </text>
+
+        <text name="md_lbl_genre">
+            <disabled>true</disabled>
+        </text>
+
+        <text name="md_genre">
+            <disabled>true</disabled>
+        </text>
+
+        <text name="md_lbl_players">
+            <disabled>true</disabled>
+        </text>
+
+        <text name="md_players">
+            <disabled>true</disabled>
+        </text>
+
+        <text name="md_lbl_lastplayed">
+            <disabled>true</disabled>
+        </text>
+
+        <datetime name="md_lastplayed">
+            <disabled>true</disabled>
+        </datetime>
+
+        <text name="md_lbl_playcount">
+            <disabled>true</disabled>
+        </text>
+
+        <text name="md_playcount">
+            <disabled>true</disabled>
+        </text>
+
+        <text name="md_lbl_rating">
+            <disabled>true</disabled>
+        </text>
+
+        <text name="md_description">
+            <disabled>true</disabled>
+        </text>
+
+        <rating name="md_rating">
+            <disabled>true</disabled>
+        </rating>
+
+        <text name="md_lbl_favorite">
+            <disabled>true</disabled>
+        </text>
+
+        <text name="md_favorite">
+            <disabled>true</disabled>
+        </text>
+
+        <image name="consolegame" extra="true">
+            <disabled>true</disabled>
+        </image>
+
+        <image name="band1" extra="true">
+            <disabled>true</disabled>
+        </image>
+        <image name="band2" extra="true">
+            <disabled>true</disabled>
+        </image>
+        <image name="band3" extra="true">
+            <disabled>true</disabled>
+        </image>
+
+        <image name="band4" extra="true">
+            <disabled>true</disabled>
+        </image>
+
+    </view>
+</theme>

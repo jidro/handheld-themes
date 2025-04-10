@@ -1,0 +1,186 @@
+<theme>
+    <formatVersion>7</formatVersion>
+
+    <view name="basic, detailed">
+
+        <helpsystem name="help">
+            <fontSize>0.06</fontSize>
+            <pos>0.05 0.88</pos>
+        </helpsystem>
+
+        <image name="console" extra="true">
+            <pos>1 1</pos>
+        </image>
+
+        <image name="consolegame" extra="true">
+            <pos>1 1</pos>
+        </image>
+
+        <image name="logo">
+            <pos>0.21 0.12</pos>
+            <maxSize>0.32 0.12</maxSize>
+            <origin>0.5 0.5</origin>
+        </image>
+
+        <image name="console" extra="true">
+            <path>./../../art/$system.png</path>
+        </image>
+
+    </view>
+
+    <view name="detailed">
+
+        <!-- left side -->
+        <image name="backtext2" extra="true">
+            <pos>0.05 0.21</pos>
+            <size>0.44 0.65</size>
+            <origin>0 0</origin>
+            <path>./gamelistviews/back90.png</path>
+        </image>
+
+        <textlist name="gamelist">
+            <pos>0.06 0.22</pos>
+            <size>0.41 0.64</size>
+            <alignment>left</alignment>
+            <horizontalMargin>0.01</horizontalMargin>
+            <!--			<selectorColor>4368FFFF</selectorColor>-->
+            <fontSize>0.04</fontSize>
+        </textlist>
+
+
+        <!-- right side -->
+        <image name="backtext3" extra="true">
+            <pos>0.51 0.21</pos>
+            <size>0.44 0.65</size>
+            <origin>0 0</origin>
+            <path>./gamelistviews/back90.png</path>
+        </image>
+
+        <image name="md_region1">
+            <pos>0.88 0.22</pos>
+            <maxSize>0.06 0.06</maxSize>
+        </image>
+
+        <image name="md_region2">
+            <pos>0.815 0.22</pos>
+            <maxSize>0.06 0.06</maxSize>
+        </image>
+
+        <image name="md_region3">
+            <pos>0.75 0.22</pos>
+            <maxSize>0.06 0.06</maxSize>
+        </image>
+
+        <image name="md_region4">
+            <pos>0.685 0.22</pos>
+            <maxSize>0.06 0.06</maxSize>
+        </image>
+
+        <image name="md_image">
+            <pos>0.73 0.565</pos>
+            <maxSize>0.42 0.56</maxSize>
+            <origin>0.5 0.5</origin>
+        </image>
+
+        <video name="md_video">
+            <pos>0.73 0.565</pos>
+            <maxSize>0.42 0.56</maxSize>
+            <origin>0.5 0.5</origin>
+            <link>md_image</link>
+        </video>
+
+
+
+        <text name="md_folder_name">
+            <forceUppercase>1</forceUppercase>
+            <fontPath>./../../font/Exo2-BoldCondensed.otf</fontPath>
+            <fontSize>0.03</fontSize>
+            <size>0.4 0.023</size>
+            <pos>0.52 0.22</pos>
+        </text>
+
+        <image name="md_folder_image_0, md_folder_image_1, md_folder_image_2, md_folder_image_3, md_folder_image_4, md_folder_image_5, md_folder_image_6, md_folder_image_7, md_folder_image_8">
+            <origin>0.5 0.5</origin>
+            <maxSize>0.15 0.15</maxSize>
+        </image>
+
+        <!-- row 1 -->
+        <image name="md_folder_image_0">
+            <pos>0.58 0.35</pos>
+        </image>
+
+        <image name="md_folder_image_1">
+            <pos>0.73 0.35</pos>
+        </image>
+
+        <image name="md_folder_image_2">
+            <pos>0.88 0.35</pos>
+        </image>
+
+        <!-- row 2 -->
+        <image name="md_folder_image_3">
+            <pos>0.58 0.52</pos>
+        </image>
+        <image name="md_folder_image_4">
+            <pos>0.73 0.52</pos>
+        </image>
+
+        <image name="md_folder_image_5">
+            <pos>0.88 0.52</pos>
+        </image>
+
+        <!-- row 3 -->
+        <image name="md_folder_image_6">
+            <pos>0.58 0.69</pos>
+        </image>
+
+        <image name="md_folder_image_7">
+            <pos>0.73 0.69</pos>
+        </image>
+
+        <image name="md_folder_image_8">
+            <pos>0.88 0.69</pos>
+        </image>
+
+        <text name="md_description">
+            <disabled>true</disabled>
+        </text>
+
+        <text name="md_players, md_genre, md_developer, md_publisher, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher,
+		md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount, md_lbl_favorite, md_releasedate, md_developer,
+		md_publisher, md_genre, md_players, md_lastplayed,md_playcount, md_favorite, md_lbl_rating">
+            <disabled>true</disabled>
+        </text>
+
+        <rating name="md_rating">
+            <disabled>true</disabled>
+        </rating>
+
+        <!-- this block avoids controls layout additional elements to interfer when mixing layouts-->
+        <image name="controls" extra="false">
+            <disabled>true</disabled>
+        </image>
+        <text name="control" extra="false">
+        </text>
+        <image name="backtext4" extra="false">
+        </image>
+
+    </view>
+
+    <view name="basic">
+
+        <image name="backtext1" extra="true">
+            <pos>0.08 0.22</pos>
+            <size>0.84 0.662</size>
+            <origin>0 0</origin>
+            <path>./gamelistviews/back90.png</path>
+        </image>
+
+        <textlist name="gamelist">
+            <pos>0.09 0.23</pos>
+            <size>0.82 0.650</size>
+            <alignment>center</alignment>
+            <horizontalMargin>0.01</horizontalMargin>
+        </textlist>
+    </view>
+</theme>

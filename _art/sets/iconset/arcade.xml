@@ -1,0 +1,21 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	
+	<view name="menu, system, basic, detailed, gameclip">
+		<helpsystem name="help">
+			<iconColor>FFFFFFFF</iconColor>
+			<iconUpDown>./icons/arcade/updown.png</iconUpDown>
+			<iconLeftRight>./icons/arcade/leftright.png</iconLeftRight>
+			<iconUpDownLeftRight>./icons/arcade/all.png</iconUpDownLeftRight>
+			<iconA>./icons/arcade/a.png</iconA>
+			<iconB>./icons/arcade/b.png</iconB>
+			<iconX>./icons/arcade/x.png</iconX>
+			<iconY>./icons/arcade/y.png</iconY>
+			<iconL>./icons/arcade/l.png</iconL>
+			<iconR>./icons/arcade/r.png</iconR>
+			<iconStart>./icons/arcade/start.png</iconStart>
+			<iconSelect>./icons/arcade/select.png</iconSelect>
+		</helpsystem>		
+	</view>
+	
+</theme>

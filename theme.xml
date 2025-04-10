@@ -1,0 +1,54 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./_art/extra/hidden.xml</include>
+	<include>./_art/sets/config.xml</include>
+  	<variables>
+		<strawberry>ED5353</strawberry>
+		<fontSizeH1-medium>0.0625</fontSizeH1-medium> <!-- 20 -->
+		<fontSizeH2-medium>0.05</fontSizeH2-medium> <!-- 16 -->
+		<fontSizeH3-medium>0.04375</fontSizeH3-medium> <!-- 14 -->
+		<fontSizeBody-medium>0.0375</fontSizeBody-medium> <!-- 12 -->
+		<fontSizeCaption-medium>0.028125</fontSizeCaption-medium> <!-- 9 -->
+		<fontRegular>./_art/font/Inter-Regular.otf</fontRegular>
+		<fontBold>./_art/font/Inter-Bold.otf</fontBold>
+		<fontLight>./_art/font/Inter-Light.otf</fontLight>
+		<fontHelper>./_art/font/RobotoCondensed-Regular.ttf</fontHelper>
+	</variables>	
+	<include name="4:3" displayName="${4:3}">./fullscreen.xml</include>	
+	<view name="menu">
+		<menuGroup name="menugroup">
+			<fontPath>${fontRegular}</fontPath>
+			<fontSize>${fontSizeCaption-medium}</fontSize>
+			<color>ff8c82</color>
+		</menuGroup>
+		<menuButton name="menubutton">
+			<path>./_art/icons/button-normal.png</path>
+			<filledPath>./_art/icons/button-hover.png</filledPath>
+		</menuButton>
+		<menuSwitch name="menuswitch">
+			<pathOn>./_art/icons/switch-on.svg</pathOn>
+			<pathOff>./_art/icons/switch-off.svg</pathOff>
+		</menuSwitch>
+		<menuIcons name="menuicons">
+			<iconSystem>./_art/icons/System.png</iconSystem>
+			<iconControllers>./_art/icons/Controllers.png</iconControllers>
+			<iconGames>./_art/icons/gamepad-square.svg</iconGames>
+			<iconUI>./_art/icons/brush.svg</iconUI>
+			<iconSound>./_art/icons/Sound.png</iconSound>
+			<iconNetwork>./_art/icons/Network.png</iconNetwork>
+			<iconScraper>./_art/icons/Scraper.png</iconScraper>
+			<iconQuit>./_art/icons/Quit.png</iconQuit>
+			<iconRetroachievements>./_art/icons/trophy.svg</iconRetroachievements>
+			<iconKodi>./_art/icons/Kodi.png</iconKodi>
+			<iconRestart>./_art/icons/Restart.png</iconRestart>
+			<iconShutdown>./_art/icons/Shutdown.png</iconShutdown>
+			<iconFastShutdown>./_art/icons/Fastshutdown.png</iconFastShutdown>
+			<iconManual>./_art/icons/Manual.png</iconManual>
+			<iconStreaming>./_art/icons/moonlight.svg</iconStreaming>
+		</menuIcons>
+		<menuTextEdit name="menutextedit">
+			<inactive>./_art/assets/textinput_inactive.png</inactive>
+			<active>./_art/assets/textinput_active.png</active>
+		</menuTextEdit>
+	</view>
+</theme>

@@ -1,0 +1,20 @@
+<theme>
+	<formatVersion>7</formatVersion>	
+	
+	<feature supported="carousel">
+  
+	<view name="system, basic, detailed, grid, video">
+
+		<carousel name="systemcarousel">
+			<scrollSound>./keysounds/stickbreak.wav</scrollSound>
+		</carousel>
+
+		<textlist name="gamelist">
+			<scrollSound>./keysounds/stickbreak.wav</scrollSound>
+		</textlist>
+
+	</view>
+
+	</feature>
+	
+</theme>

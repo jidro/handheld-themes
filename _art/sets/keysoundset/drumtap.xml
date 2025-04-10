@@ -1,0 +1,20 @@
+<theme>
+	<formatVersion>7</formatVersion>	
+	
+	<feature supported="carousel">
+  
+	<view name="system, basic, detailed, grid, video">
+
+		<carousel name="systemcarousel">
+			<scrollSound>./keysounds/drumtap.wav</scrollSound>
+		</carousel>
+
+		<textlist name="gamelist">
+			<scrollSound>./keysounds/drumtap.wav</scrollSound>
+		</textlist>
+
+	</view>
+
+	</feature>
+	
+</theme>

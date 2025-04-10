@@ -1,0 +1,8 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<view name="system, basic, detailed, grid, video">
+		<helpsystem name="help">
+			<iconColor>${strawberry}</iconColor>
+		</helpsystem>
+	</view>
+</theme>

@@ -1,0 +1,73 @@
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+		<!--<text name="systemName" extra="true">
+			<pos>0.37 0.7</pos>
+			<origin>0 0</origin>
+			<text>${system.fullName}</text>
+			<fontPath>${fontBold}</fontPath>
+			<fontSize>${fontSizeH1-medium}</fontSize>
+			<forceUppercase>false</forceUppercase>
+			<color>ffffff</color>
+			<alignment>left</alignment>
+			<lineSpacing>1</lineSpacing>
+			<zIndex>31</zIndex>
+		</text>-->
+		<image name="screenshotb" extra="true">
+			<path>./_art/screenshots/${system.theme}.jpg</path>
+			<pos>0 0</pos>
+			<size>1 1.2</size>
+			<origin>0 0</origin>
+			<tile>false</tile>
+			<zIndex>1</zIndex>
+		</image>
+		<carousel name="systemcarousel">
+			<type>horizontal</type>
+			<pos>0 -0.05</pos> 
+		</carousel>
+		<!--<image name="logo">
+			<path>./_art/art/${system.theme}.png</path>
+		</image>-->
+		<image name="logo">
+			<path>./_art/art/svg/${system.theme}.svg</path>
+		</image>
+		<image name="logo" lang="zh">
+			<path>./_art/art/zh_CN_${system.theme}.png</path>
+		</image>
+		<image name="logo" lang="tr">
+			<path>./_art/art/zh_TW_${system.theme}.png</path>
+		</image>
+		<text name="systemInfo">
+			<origin>0.5 0.5</origin>
+			<forceUppercase>false</forceUppercase>
+			<visible>false</visible>
+		</text>
+		<text name="shortdescription" extra="true">
+			<visible>false</visible>
+		</text>
+		<text name="longdescription" extra="true">
+			<visible>false</visible>
+		</text>
+	</view>
+	<view name="system, basic, detailed, grid, video">
+		<helpsystem name="help">
+			<origin>0 0.5</origin>
+			<fontPath>${fontHelper}</fontPath>
+		</helpsystem>
+	</view>
+	<view name="screen">
+		<text name="clock">
+			<pos>0.91 0.93</pos>
+			<origin>0 0.5</origin>
+			<fontPath>${fontHelper}</fontPath>
+			<fontSize>${fontSizeBody-medium}</fontSize>
+			<color>FFFFFF</color>
+			<alignment>left</alignment>
+			<verticalAlignment>center</verticalAlignment>
+		</text>
+		<batteryIndicator name="batteryIndicator">
+			<color>FFFFFF</color>
+		</batteryIndicator>
+	</view>
+</theme>

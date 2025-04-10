@@ -1,0 +1,17 @@
+<theme>
+    <formatVersion>7</formatVersion>
+	
+	<view name="system">
+
+		<image name="foreground" extra="true">
+			<pos>0 0</pos>
+			<size>1 1</size>
+			<origin>0 0</origin>
+			<tile>true</tile>
+			<zIndex>3</zIndex>
+			<path>./foregrounds/green.png</path>
+		</image>
+
+	</view>
+	
+</theme>

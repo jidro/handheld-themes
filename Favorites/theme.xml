@@ -1,0 +1,91 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+  	<variables>
+		<fontRegular1>./../_art/font/Inter-Regular.otf</fontRegular1>
+		<fontBold1>./../_art/font/Inter-Bold.otf</fontBold1>
+		<fontLight1>./../_art/font/Inter-Light.otf</fontLight1>
+		<fontHelper1>./../_art/font/RobotoCondensed-Regular.ttf</fontHelper1>
+	</variables>
+	<view name="system, basic, detailed, grid, video">
+		<text name="logoText">
+			<fontPath>${fontBold1}</fontPath>
+			<fontSize>${fontSizeH2-medium}</fontSize>
+			<lineSpacing>1</lineSpacing>
+			<alignment>center</alignment>
+			<forceUppercase>false</forceUppercase>
+			<color>ffffff</color>
+			<pos>0 0.01</pos>
+			<zIndex>31</zIndex>
+			<visible>true</visible>
+		</text>
+		<textlist name="gamelist">
+			<pos>0 0.1</pos>
+			<origin>0 0</origin>
+			<selectorColor>${strawberry}</selectorColor>
+			<selectorColorEnd>5D80B3FF</selectorColorEnd>
+			<selectedColor>FFFFFF</selectedColor>
+			<primaryColor>FFFFFF</primaryColor>
+			<secondaryColor>FFFFFF</secondaryColor>
+			<lineSpacing>1.3</lineSpacing>
+			<fontPath>${fontRegular1}</fontPath>
+			<fontSize>${fontSizeBody-medium}</fontSize>
+			<alignment>left</alignment>
+			<horizontalMargin>0.033333</horizontalMargin>
+			<scrollbarColor>5D80B380</scrollbarColor>
+			<scrollbarAlignment>outer</scrollbarAlignment>
+			<zIndex>3</zIndex>
+		</textlist>
+		<rating name="md_rating">
+			<pos>0.61 0.83125</pos>
+			<origin>0 0</origin>
+			<color>${strawberry}</color>
+			<colorEnd>5D80B3FF</colorEnd>
+			<filledPath>./../_art/icons/star.svg</filledPath>
+			<unfilledPath>./../_art/icons/star_border.svg</unfilledPath>
+			<visible>false</visible>
+			<zIndex>2</zIndex>
+		</rating>
+		<text name="md_name">
+			<pos>0 0.92</pos>
+			<size>1 0.10</size>
+			<fontPath>./../_art/Acre.otf</fontPath>
+			<fontSize>0.035</fontSize>
+			<forceUppercase>false</forceUppercase>
+			<alignment>center</alignment>
+			<visible>false</visible>
+		</text>
+		<video name="md_video">
+			<pos>0.5 0.5</pos>
+			<origin>0 0.5</origin>
+			<maxSize>0.5 0.6</maxSize>
+			<delay>1</delay>
+			<zIndex>2</zIndex>
+			<showSnapshotNoVideo>true</showSnapshotNoVideo>
+			<showSnapshotDelay>true</showSnapshotDelay>
+			<effect>none</effect>
+			<snapshotSource>thumbnail</snapshotSource>
+		</video>
+		<text name="md_description">
+			<pos>0.003 0.08</pos>
+			<size>0.464 0.42</size>
+			<fontPath>./_art/Acre.otf</fontPath>
+			<fontSize>0.03</fontSize>
+			<color>FFFFFF99</color>
+			<alignment>left</alignment>
+			<forceUppercase>false</forceUppercase>
+			<lineSpacing>1</lineSpacing>
+			<visible>false</visible>
+		</text>
+	</view>
+	<view name="system">
+		<image name="foreground" extra="true">
+			<pos>0 0</pos>
+			<size>1 1</size>
+			<origin>0 0</origin>
+			<tile>true</tile>
+			<zIndex>3</zIndex>
+			<path>./foregrounds/favorites.png</path>
+		</image>
+	</view>
+</theme>

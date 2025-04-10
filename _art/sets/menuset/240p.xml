@@ -1,0 +1,42 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<view name="menu">
+		<menuSize name="menuSize">
+			<height>0.7</height>
+		</menuSize>
+		<helpsystem name="help">
+			<fontSize>0.06</fontSize>
+			<pos>0.05 0.88</pos>
+		</helpsystem>
+		<menuText name="menufooter">
+			<fontPath>./fonts/Bariol_Regular_Italic.otf</fontPath>
+			<fontSize>0.01</fontSize>
+			<color>80808000</color>
+		</menuText>
+		<menuText name="menutext">
+			<fontPath>./fonts/Bariol_Regular.otf</fontPath>
+			<fontSize>0.052</fontSize>
+			<color>35495EFF</color>
+			<separatorColor>35495EFF</separatorColor>
+			<selectorColor>35495EFF</selectorColor>
+			<selectorColorEnd>4E6CAFFF</selectorColorEnd>
+			<selectedColor>FFFFFFCC</selectedColor>
+		</menuText>
+		<menuTextSmall name="menutextsmall">
+			<fontPath>./fonts/Bariol_Regular.otf</fontPath>
+			<fontSize>0.042</fontSize>
+			<color>35495EFF</color>
+		</menuTextSmall>
+		<menuText name="menutitle">
+			<fontPath>./fonts/Bariol_Regular.otf</fontPath>
+			<fontSize>0.08</fontSize>
+			<color>35495EFF</color>
+		</menuText>
+		<menuBackground name="menubg">
+			<color>F1F1F1CC</color>
+			<path>./menus/borderframe.png</path>
+			<fadePath>./menus/fade.png</fadePath>
+		</menuBackground>
+	</view>
+
+</theme>

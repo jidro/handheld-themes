@@ -1,0 +1,122 @@
+<theme>
+    <formatVersion>7</formatVersion>
+
+<!--	<subset name="foregroundset" displayName="背景绘影">
+		<include name="gray" displayName="01-纯灰调色">./foregroundset/gray.xml</include>
+		<include name="green" displayName="02-纯绿绘彩">./foregroundset/green.xml</include>
+		<include name="yellow" displayName="03-纯黄炫彩">./foregroundset/yellow.xml</include>
+		<include name="blue" displayName="04-纯蓝雅调">./foregroundset/blue.xml</include>
+		<include name="trim-gray" displayName="05-灰边修饰">./foregroundset/trim-gray.xml</include>
+		<include name="dragonshade" displayName="06-龙影暗域">./foregroundset/dragonshade.xml</include>
+		<include name="gadgetglow" displayName="07-小物光芒">./foregroundset/gadgetglow.xml</include>
+		<include name="greennight" displayName="08-绿夜之城">./foregroundset/greennight.xml</include>
+		<include name="warmroom" displayName="09-暖光空间">./foregroundset/warmroom.xml</include>
+		<include name="blend" displayName="10-光影融合">./foregroundset/blend.xml</include>
+		<include name="rays" displayName="11-光线交织">./foregroundset/rays.xml</include>
+		<include name="muxlaunch" displayName="12-山星云幕">./foregroundset/muxlaunch.xml</include>
+	</subset> -->
+
+	<subset name="backgroundset" displayName="列表绘影">
+		<include name="dragonshade" displayName="01-龙影暗域">./backgroundset/dragonshade.xml</include>
+		<include name="gadgetglow" displayName="02-小物光芒">./backgroundset/gadgetglow.xml</include>
+		<include name="greennight" displayName="03-绿夜之城">./backgroundset/greennight.xml</include>
+		<include name="warmroom" displayName="04-暖光空间">./backgroundset/warmroom.xml</include>
+		<include name="ironman" displayName="05-铁甲英豪">./backgroundset/ironman.xml</include>
+		<include name="capamerica" displayName="06-美国队长">./backgroundset/capamerica.xml</include>
+		<include name="skywire" displayName="07-云夕山兮">./backgroundset/skywire.xml</include>
+		<include name="muxlaunch" displayName="08-山星云幕">./backgroundset/muxlaunch.xml</include>
+		<include name="circumstellar-planet" displayName="09-环星行宇">./backgroundset/circumstellar-planet.xml</include>
+		<include name="electroncontroller" displayName="10-电控大师">./backgroundset/electroncontroller.xml</include>
+		<include name="frostfox" displayName="11-冰狐凝晶">./backgroundset/frostfox.xml</include>
+		<include name="ghostcat" displayName="12-鬼猫共栖">./backgroundset/ghostcat.xml</include>
+		<include name="time-abstract" displayName="13-抽象时间">./backgroundset/time-abstract.xml</include>
+		<include name="kartlabor" displayName="14-卡丁劳作">./backgroundset/kartlabor.xml</include>
+		<include name="green-meadows" displayName="15-绿色草地">./backgroundset/green-meadows.xml</include>
+		<include name="MX_Tangram" displayName="16-方块炫图">./backgroundset/MX_Tangram.xml</include>
+		<include name="mx-spotlight" displayName="17-明曦闪点">./backgroundset/mx-spotlight.xml</include>
+		<include name="rocket" displayName="18-火箭腾空">./backgroundset/rocket.xml</include>
+	</subset>
+
+	<subset name="keysoundset" displayName="键音定制">
+		<include name="default" displayName="01-默认">./keysoundset/default.xml</include>
+		<include name="stickbreak" displayName="02-折棍">./keysoundset/stickbreak.xml</include>
+		<include name="taptone" displayName="03-滴弹">./keysoundset/taptone.xml</include>
+		<include name="drumtap" displayName="04-鼓点">./keysoundset/drumtap.xml</include>
+		<include name="bladesnap" displayName="05-刃弦">./keysoundset/bladesnap.xml</include>
+	</subset>
+
+	<subset name="colorset" displayName="配色绘影">
+		<include name="anbernic" displayName="01-默认">./colorset/anbernic.xml</include>
+		<include name="recalbox" displayName="02-Recal原生">./colorset/recalbox.xml</include>
+		<include name="default" displayName="03-标准色">./colorset/default.xml</include>
+		<include name="darker" displayName="04-深色调">./colorset/darker.xml</include>
+		<include name="blackandwhite" displayName="05-黑白配">./colorset/blackandwhite.xml</include>
+		<include name="standard_noinfo" displayName="06-标准简">./colorset/standard_noinfo.xml</include>
+		<include name="whiteandblack" displayName="07-白黑搭">./colorset/whiteandblack.xml</include>
+		<include name="blue" displayName="08-蓝色调">./colorset/blue.xml</include>
+		<include name="green" displayName="09-绿色系">./colorset/green.xml</include>
+		<include name="grey" displayName="10-灰蒙蒙">./colorset/grey.xml</include>
+		<include name="orange" displayName="11-橙活力">./colorset/orange.xml</include>
+		<include name="pink" displayName="12-粉嘟嘟">./colorset/pink.xml</include>
+		<include name="purple" displayName="13-紫罗兰">./colorset/purple.xml</include>
+		<include name="red" displayName="14-热情红">./colorset/red.xml</include>
+		<include name="yellow" displayName="15-明媚黄">./colorset/yellow.xml</include>
+	</subset>
+
+	<subset name="iconset" displayName="图标绘影">
+		<include name="default" displayName="01-默认">./iconset/default.xml</include>
+		<include name="psx" displayName="02-PSX">./iconset/psx.xml</include>
+		<include name="xbox" displayName="03-XBox">./iconset/xbox.xml</include>
+		<include name="xboxone" displayName="04-Xbox One">./iconset/xboxone.xml</include>
+		<include name="arcade" displayName="05-街机">./iconset/arcade.xml</include>
+		<include name="snes" displayName="06-超级任天堂">./iconset/snes.xml</include>
+		<include name="snesalt" displayName="07-超级任天堂-Alt">./iconset/snesalt.xml</include>
+	</subset>
+
+	<subset name="menu" displayName="菜单绘影">
+		<include name="default" displayName="01-默认">./menuset/default.xml</include>
+		<include name="recalbox_icons" displayName="02-淡蓝图标">./menuset/recalbox_icons.xml</include>
+		<include name="recalbox" displayName="03-淡蓝">./menuset/recalbox.xml</include>
+		<include name="small" displayName="04-标准小字">./menuset/small.xml</include>
+		<include name="clean" displayName="05-简洁">./menuset/clean.xml</include>
+		<include name="cleanlight" displayName="06-简洁亮色">./menuset/cleanlight.xml</include>
+		<include name="240p" displayName="07-240P">./menuset/240p.xml</include>
+	</subset>
+
+	<subset name="gamelistview" displayName="游戏列表">
+		<include name="default" displayName="01-默认">./gamelistviewset/default.xml</include>
+		<include name="standard-landscape" displayName="02-Recal原生">./gamelistviewset/standard-landscape.xml</include>
+		<include name="controls" displayName="03-操作布局">./gamelistviewset/controls.xml</include>
+		<include name="standard-big_picture" displayName="04-大屏模式">./gamelistviewset/standard-big_picture.xml</include>
+		<include name="standard-nodesc.xml" displayName="05-无述列表">./gamelistviewset/standard-nodesc.xml</include>
+		<include name="standard-portrait" displayName="06-竖版展示">./gamelistviewset/standard-portrait.xml</include>
+		<include name="crt" displayName="07-小屏CRT">./gamelistviewset/crt.xml</include>
+		<include name="tinyscreen" displayName="08-小屏无字">./gamelistviewset/tinyscreen.xml</include>
+		<include name="vertical" displayName="09-竖屏模式">./gamelistviewset/vertical.xml</include>
+		<include name="mix" displayName="10-混合布局">./gamelistviewset/mix.xml</include>
+		<include name="240p" displayName="11-240P">./gamelistviewset/240p.xml</include>
+		<include name="240p-nodesc" displayName="12-240P无述">./gamelistviewset/240p-nodesc.xml</include>
+	</subset>
+
+	<subset name="systemview" displayName="系统绘影">
+		<include name="default" displayName="01-默认">./systemviewset/default.xml</include>
+		<include name="vertical_carousel_left" displayName="02-左竖布局">./systemviewset/vertical_carousel_left.xml</include>
+		<include name="recalbox_origin" displayName="03-Recal原生">./systemviewset/recalbox_origin.xml</include>
+		<include name="crt_tinyscreen" displayName="04-小屏CRT">./systemviewset/crt_tinyscreen.xml</include>
+		<include name="new_carousel" displayName="05-居中显示">./systemviewset/new_carousel.xml</include>
+		<include name="new_carousel_top" displayName="06-顶部对齐">./systemviewset/new_carousel_top.xml</include>
+		<include name="vertical_carousel" displayName="07-竖排模式">./systemviewset/vertical_carousel.xml</include>
+		<include name="vertical_carousel_crt" displayName="08-竖屏小CRT">./systemviewset/vertical_carousel_crt.xml</include>
+		<include name="wheel" displayName="09-左轮导航">./systemviewset/wheel.xml</include>
+		<include name="240p" displayName="10-240P">./systemviewset/240p.xml</include>
+	</subset>
+
+	<subset name="gameclipview" displayName="游戏剪影">
+		<include name="default" displayName="01-默认">./gameclipviewset/default.xml</include>
+		<include name="detailed" displayName="02-详情模式">./gameclipviewset/detailed.xml</include>
+		<include name="cover" displayName="03-大图模式">./gameclipviewset/cover.xml</include> 
+		<include name="forced43" displayName="04-强制4:3">./gameclipviewset/forced43.xml</include>
+		<include name="240p" displayName="05-240P">./gameclipviewset/240p.xml</include>
+	</subset>
+
+</theme>

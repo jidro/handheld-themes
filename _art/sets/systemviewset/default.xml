@@ -1,0 +1,52 @@
+<theme>
+	<formatVersion>7</formatVersion>	
+	
+	<feature supported="carousel">
+  
+	<view name="system">
+
+		<carousel name="systemcarousel">
+			<color>00000000</color>
+			<size>1 1</size> 
+			<logoScale>1</logoScale>
+			<logoSize>0.35 0.35</logoSize>
+			<maxLogoCount>3</maxLogoCount>
+		</carousel>
+
+		<text name="systemInfo">
+			<pos>0.5 0.80</pos>
+			<fontSize>0.06</fontSize>
+			<backgroundColor>FFFFFF00</backgroundColor>
+			<fontPath>./../../font/Acre.otf</fontPath>
+		</text>
+
+	</view>
+
+	</feature>
+	
+	<view name="system, basic, detailed, grid, video">
+
+		<helpsystem name="help">
+			<pos>0.016666667 0.96</pos>
+			<fontSize>${fontSizeBody-medium}</fontSize>
+		</helpsystem>
+		<image name="consolegame" extra="true">
+			<pos>0.02 0.30</pos>
+			<maxSize>0.4 0.25</maxSize>
+			<origin>0 1</origin>
+		</image>
+		<image name="controller" extra="true">
+			<pos>0.78 0.30</pos>
+			<maxSize>0.15 0.25</maxSize>
+			<origin>1 1</origin>
+		</image>
+		
+		<text name="info1, info2, info3, info4, info5, info6, info7, info8, info9, info10" extra="false">
+			<size>0.44 0.02</size>
+			<pos>0.36 0.72</pos>
+		</text>
+		
+	</view>
+	
+	
+</theme>

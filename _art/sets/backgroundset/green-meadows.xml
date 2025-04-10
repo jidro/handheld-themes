@@ -1,0 +1,17 @@
+<theme>
+    <formatVersion>7</formatVersion>
+	
+	<view name="basic, detailed, grid, video">
+
+		<image name="backgrounds" extra="true">
+			<pos>0 0</pos>
+			<size>1 1</size>
+			<origin>0 0</origin>
+			<tile>false</tile>
+			<zIndex>1</zIndex>
+			<path>./backgrounds/green-meadows.png</path>
+		</image>
+
+	</view>
+	
+</theme>

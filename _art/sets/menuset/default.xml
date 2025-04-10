@@ -1,0 +1,47 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	
+  	<variables>
+		<strawberry>ED5353</strawberry>
+		<fontSizeH1-medium>0.0625</fontSizeH1-medium> <!-- 20 -->
+		<fontSizeH2-medium>0.05</fontSizeH2-medium> <!-- 16 -->
+		<fontSizeH3-medium>0.04375</fontSizeH3-medium> <!-- 14 -->
+		<fontSizeBody-medium>0.0375</fontSizeBody-medium> <!-- 12 -->
+		<fontSizeCaption-medium>0.028125</fontSizeCaption-medium> <!-- 9 -->
+		<fontRegular>./../../font/Inter-Regular.otf</fontRegular>
+		<fontBold>./../../font/Inter-Bold.otf</fontBold>
+		<fontLight>./../../font/Inter-Light.otf</fontLight>
+		<fontHelper>./../../font/RobotoCondensed-Regular.ttf</fontHelper>
+	</variables>	
+	<view name="menu">
+		<menuText name="menufooter">
+			<fontPath>${fontBold}</fontPath>
+			<fontSize>${fontSizeCaption-medium}</fontSize>
+			<color>808080FF</color>
+		</menuText>
+		<menuText name="menutext">
+			<fontPath>${fontRegular}</fontPath>
+			<fontSize>${fontSizeBody-medium}</fontSize>
+			<color>35495EFF</color>
+			<separatorColor>35495EFF</separatorColor>
+			<selectorColor>35495EFF</selectorColor>
+			<selectorColorEnd>${strawberry}</selectorColorEnd>
+			<selectedColor>FFFFFFCC</selectedColor>
+			<selectorGradientType>horizontal</selectorGradientType>
+		</menuText>
+		<menuTextSmall name="menutextsmall">
+			<fontPath>${fontLight}</fontPath>
+			<fontSize>${fontSizeCaption-medium}</fontSize>
+			<color>35495EFF</color>
+		</menuTextSmall>
+		<menuText name="menutitle">
+			<fontPath>${fontBold}</fontPath>
+			<fontSize>${fontSizeH2-medium}</fontSize>
+			<color>35495EFF</color>
+		</menuText>
+		<menuBackground name="menubg">
+			<color>F1F1F1CC</color>
+		</menuBackground>
+	</view>
+	
+</theme>

@@ -1,0 +1,57 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	
+	<view name="menu">
+		<menuText name="menufooter">
+			<fontPath>./fonts/Bariol_Regular_Italic.otf</fontPath>
+			<fontSize>0.025</fontSize>
+			<color>808080FF</color>
+		</menuText>
+		<menuText name="menutext">
+			<fontPath>./fonts/Bariol_Regular.otf</fontPath>
+			<fontSize>0.035</fontSize>
+			<color>35495EFF</color>
+			<separatorColor>35495EFF</separatorColor>
+			<selectorColor>35495EFF</selectorColor>
+			<selectorColorEnd>6D7BBDFF</selectorColorEnd>
+			<selectedColor>FFFFFFCC</selectedColor>
+		</menuText>
+		<menuTextSmall name="menutextsmall">
+			<fontPath>./fonts/Bariol_Regular.otf</fontPath>
+			<fontSize>0.028</fontSize>
+			<color>35495EFF</color>
+		</menuTextSmall>
+		<menuText name="menutitle">
+			<fontPath>./fonts/Bariol_Regular.otf</fontPath>
+			<fontSize>0.04</fontSize>
+			<color>35495EFF</color>
+		</menuText>
+		<menuBackground name="menubg">
+			<color>F1F1F1CC</color>
+			<path>./menus/borderframe.png</path>
+			<fadePath>./menus/fade.png</fadePath>
+		</menuBackground>
+		<menuIcons name="menuicons">
+			<iconKodi>./menu_icons/Kodi.png</iconKodi>
+			<iconSystem>./menu_icons/System.png</iconSystem>
+			<iconUpdates>./menu_icons/Updates.png</iconUpdates>
+			<iconGames>./menu_icons/Games.png</iconGames>
+			<iconControllers>./menu_icons/Controllers.png</iconControllers>
+			<iconUI>./menu_icons/UI.png</iconUI>
+			<iconSound>./menu_icons/Sound.png</iconSound>
+			<iconNetwork>./menu_icons/Network.png</iconNetwork>
+			<iconScraper>./menu_icons/Scraper.png</iconScraper>
+			<iconAdvanced>./menu_icons/Advanced.png</iconAdvanced>
+			<iconQuit>./menu_icons/Quit.png</iconQuit>
+			<iconRestart>./menu_icons/Restart.png</iconRestart>
+			<iconShutdown>./menu_icons/Shutdown.png</iconShutdown>
+			<iconFastShutdown>./menu_icons/Fastshutdown.png</iconFastShutdown>
+			<iconLicense>./menu_icons/License.png</iconLicense>
+			<iconRecalboxRGBDual>./menu_icons/RRGBD.png</iconRecalboxRGBDual>
+			<iconTate>./menu_icons/Tate.png</iconTate>
+			<iconArcade>./menu_icons/Arcade.png</iconArcade>
+			<iconDownload>./menu_icons/Download.png</iconDownload>
+		</menuIcons>
+	</view>
+	
+</theme>
